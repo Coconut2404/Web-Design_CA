@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: "Inria Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+    font-size: 100px;
+}
+
+h2 {
+    color: black;
+    font-size: 50px;
+}
+
+h3 {
+    color: black;
+    font-size: 80px;
+}
+
+h4 {
+    color: black;
+    font-size: 40px;
+}
+
+h5 {
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+
+ul.topnav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.topnav a {
+    background-color: rgb(246, 246, 246);
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    width: 150px;
+    text-align: center;
+}
+
+.topnav a:hover {
+    border-bottom: 2px solid black;
+}
+
+.topBut {
+    border-radius: 20px;
+    padding: 15px 30px;
+    background-color: rgb(246, 246, 246);
+    transition: background-color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.topBut:hover {
+    background-color: #e0e0e0;
+    border-bottom: 2px solid black;
+}
+
+.intro {
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-image: url(../images/legoheads.png);
+    background-size: cover;
+    min-height: 50vh;
+    text-align: center;
+}
+
+a.button{
+    color: #e0e0e0;
+    background-color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+}
+
+.intro p {
+    font-size: 24px;
+}
+
+.fade {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.popular {
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.bigPic {
+    width: 100%;
+}
+
+.features {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.featureItem {
+    background-color: #fedf2d;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.headshot {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.bottom {
+    text-align: center;
+    padding: 20px;
+    background-color: #fedf2d;
+    border-radius: 20px;
+    background-image:url(../images/yellowbrick.PNG) ;
+    background-size: cover;
+    background-position: center bottom;
+  
+    
+}
+
